@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     /* background: linear-gradient(to right, #26014e, #1f293a); */
-    background-image: url('img/singa.webp');
-    /* background-size: cover;  */
+    background-image: url('img/images.jpeg');
+    background-size: cover; 
     background-position: center;
     display: flex;
     justify-content: center;
