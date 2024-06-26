@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #26014e, #1f293a);
+    /* background: linear-gradient(to right, #26014e, #1f293a); */
+    background-image: url('img/singa.webp');
+    /* background-size: cover;  */
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +13,12 @@ body {
 }
 
 .container {
-    background: rgba(243, 13, 109, 0.478);
+    background: rgba(243, 13, 13, 0.799);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
+    /* height: 200px; */
 }
 
 
