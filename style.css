@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    background: rgba(243, 13, 13, 0.799);
+    background: rgba(16, 0, 0, 0.413);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: #2575fc;
+    background: #02060e;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background: #0059c1;
+    background: #00040b22;
     transform: scale(1.05);
 }
 
