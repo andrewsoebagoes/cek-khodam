@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background: #00040b22;
+    background: #00040b72;
     transform: scale(1.05);
 }
 
@@ -50,4 +50,9 @@ button:hover {
 #result {
     margin-top: 20px;
     font-size: 18px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
 }
