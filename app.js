@@ -3,6 +3,7 @@ document.getElementById('khodamForm').addEventListener('submit', function(e) {
     const name = document.getElementById('fullname').value;
     const khodam = generateKhodam(name);
     document.getElementById('result').innerHTML = `<p>Khodam untuk <strong>${name}</strong>: <strong>${khodam}</strong></p>`;
+    document.getElementById('fullname').value = "";
 });
 
 function generateKhodam(name) {

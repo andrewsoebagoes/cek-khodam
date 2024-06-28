@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    /* background: linear-gradient(to right, #26014e, #1f293a); */
     background-image: url('img/images.jpeg');
     background-size: cover; 
     background-position: center;
@@ -18,16 +17,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    /* height: 200px; */
 }
-
 
 input {
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
-    width: calc(100% - 22px); /* Adjust for padding */
+    width: calc(100% - 22px);
 }
 
 button {
@@ -46,7 +43,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-
 #result {
     margin-top: 20px;
     font-size: 18px;
@@ -54,5 +50,5 @@ button:hover {
 
 a{
     text-decoration:none;
-    color: black;
+    color: red;
 }
